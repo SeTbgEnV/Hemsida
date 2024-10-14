@@ -1,0 +1,33 @@
+[
+    {
+            "productId": 1,
+            "itemNumber": "1-5679X",
+            "name": "Sliptrissor",
+            "price": 40
+        },
+        {
+            "productId": 2,
+            "itemNumber": "1-5665X",
+            "name": "Slipmaskin",
+            "price": 3995
+        },
+        {
+            "productId": 3,
+            "itemNumber": "1-5645X",
+            "name": "Diskborstar",
+            "price": 2
+        },
+        {
+            "productId": 4,
+            "itemNumber": "1-561115X",
+            "name": "Stålull",
+            "price": 12.5
+        },
+        {
+              "productId": 5,
+              "itemNumber": "1-55X",
+              "name": "tandborste",
+              "price": 15
+            }
+]
+  

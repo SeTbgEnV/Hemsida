@@ -1,0 +1,25 @@
+@model List<Kundkorg.models.Product>
+
+<h1 class="page-title">Produkter</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Produkter</th>
+      <th>Produkt nummer</th>
+      <th>Namn</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach(var product in Model)
+    {
+      <tr>
+        <td><a asp-controller="Products"asp-action="Details" asp-route-id="@product.ProductId"><i class="fa-solid fa-cart-plus"></i></a></td>
+        <td>@product.ItemNumber</td>
+        <td>@product.Name</td>
+        <td>@product.Price</td>
+      </tr>
+    }
+  </tbody>
+</table>
